@@ -1,4 +1,4 @@
 package com.example.newfirstapp.database
 
-class Contact {
+class UserDao {
 }

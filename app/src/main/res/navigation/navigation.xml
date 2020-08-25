@@ -16,4 +16,8 @@
         android:name="com.example.newfirstapp.TitleFragment"
         android:label="Title"
         tools:layout="@layout/fragment_title" />
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.example.newfirstapp.contant.ContactFragment"
+        android:label="ContactFragment" />
 </navigation>
