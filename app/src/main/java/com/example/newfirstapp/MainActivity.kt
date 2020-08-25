@@ -9,7 +9,9 @@ import androidx.navigation.ui.NavigationUI
 import com.example.newfirstapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+
     private lateinit var drawerLayout: DrawerLayout
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         @Suppress("UNUSED_VARIABLE")
@@ -19,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         drawerLayout = binding.drawerLayout
 
         val navController = this.findNavController(R.id.myNavHostFragment)
+
         NavigationUI.setupActionBarWithNavController(this,navController, drawerLayout)
 
         NavigationUI.setupWithNavController(binding.navView, navController)
