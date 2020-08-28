@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
@@ -9,13 +10,22 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".AboutmeFragment">
+        android:background="#D894AB"
+        tools:context=".AboutFragment">
 
-        <!-- TODO: Update blank fragment layout -->
         <TextView
+            android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Hello i'am About me fragment" />
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="PROFILE"
+            android:textAlignment="center"
+            android:textSize="30sp" />
 
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="666dp"
+            app:srcCompat="@drawable/bhj5" />
     </FrameLayout>
 </layout>

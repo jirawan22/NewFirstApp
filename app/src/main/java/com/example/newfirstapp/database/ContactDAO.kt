@@ -6,7 +6,7 @@ import androidx.room.Insert
 import androidx.room.Query
 
 @Dao
-interface DatabaseDAO {
+interface ContactDAO {
     @Insert
     fun insert(contact: Contact)
     @Query("SELECT * from contact_table")
