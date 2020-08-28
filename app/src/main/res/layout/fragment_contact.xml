@@ -22,33 +22,34 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/Name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#D39898"
                 android:ems="10"
-                android:inputType="text" />
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:textColor="#0E0B0B" />
 
             <EditText
-                android:id="@+id/editTextTextPersonPhone"
+                android:id="@+id/EmailAddress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#D58C8C"
                 android:ems="10"
-                android:inputType="text" />
+                android:hint="E-mail"
+                android:inputType="textEmailAddress" />
 
             <Button
                 android:id="@+id/buttonInsert"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="@{()->contactViewModel.onContactAdd()}"
-                android:text="Button" />
+                android:text="Send" />
 
             <TextView
                 android:id="@+id/textview"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#D894AB"
+                android:background="#E6C8D2"
                 android:text="@{contactViewModel.contactString}" />
 
         </LinearLayout>

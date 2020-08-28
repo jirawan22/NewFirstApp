@@ -12,10 +12,10 @@
     <fragment
         android:id="@+id/titleFragment"
         android:name="com.example.newfirstapp.TitleFragment"
-        android:label="TitleFragment" />
+        android:label="FirstApp" />
     <fragment
         android:id="@+id/contactFragment"
         android:name="com.example.newfirstapp.ContactFragment"
-        android:label="fragment_contact"
+        android:label="contact"
         tools:layout="@layout/fragment_contact" />
 </navigation>
